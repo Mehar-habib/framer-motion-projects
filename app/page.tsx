@@ -1,3 +1,10 @@
+import AnimatedBackground from "./components/Keyframes/AnimatedBackground";
+import BouncingBall from "./components/Keyframes/BouncingBall";
+import ColorChange from "./components/Keyframes/ColorChange";
+import PulsatingButton from "./components/Keyframes/PulsatingButton";
+import SlidingText from "./components/Keyframes/SlidingText";
+import WaveEffect from "./components/Keyframes/WaveEffect";
+import ZigZagAnimation from "./components/Keyframes/ZigZagAnimation";
 import BouncingCircle from "./components/Transformations/BouncingCircle";
 import Box from "./components/Transformations/Box";
 import ComplexAnimation from "./components/Transformations/ComplexAnimation";
@@ -24,6 +31,15 @@ function Home() {
       {/* <Sidebar /> */}
       {/* <Modal /> */}
       {/* <ResponsiveButton /> */}
+
+      {/* //! Keyframes Animations */}
+      {/* <BouncingBall /> */}
+      {/* <PulsatingButton /> */}
+      {/* <ColorChange /> */}
+      {/* <SlidingText /> */}
+      {/* <ZigZagAnimation /> */}
+      {/* <WaveEffect /> */}
+      {/* <AnimatedBackground /> */}
     </div>
   );
 }
